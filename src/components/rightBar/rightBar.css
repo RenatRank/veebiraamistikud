@@ -1,0 +1,24 @@
+.rightBar
+{
+    flex: 2.5;
+}
+
+.rightBarWrapper
+{
+    padding-left: 20px;
+
+
+}
+
+.birthdayIcon
+{
+    margin: 5px;
+}
+
+.birthdayText
+{
+    align-items: center;
+    display: flex;
+    font-size: 12pt;
+}
+

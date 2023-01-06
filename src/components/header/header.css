@@ -1,0 +1,112 @@
+.headerContainer
+{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(20, 117, 121);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+.headerLeft
+{
+    flex: 3;
+}
+
+.headerMiddle
+{
+    flex: 6;
+}
+
+.headerRight
+{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerLinks
+{
+    margin-right: 10px;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.icons
+{
+    display: flex;
+}
+
+.headerIcon
+{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.icon-notif
+{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: cyan;
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+    font-size: 8pt;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    
+}
+
+.prof-img
+{
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.logo
+{
+    font-size: 30pt;
+    font-weight: 1000;
+    color: rgb(20, 29, 32);
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.search
+{
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.searchInput
+{
+    border: none;
+    width: 95%;
+
+}
+
+.searchInput:focus
+{
+    outline: none;
+    
+}
+
+.search_icon
+{
+    margin-left: 5px;
+    font-size: 20pt !important;
+}
